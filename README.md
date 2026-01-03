@@ -1,6 +1,6 @@
 # Project Overview
 
-This project contains a set of Snowflake stored procedures and views designed for financial data reconciliation. The procedures handle various aspects of data retrieval and aggregation, while the views provide a structured way to access this data.
+This project contains a set of Snowflake stored procedures and views designed for financial data reconciliation. The procedures handle various aspects of Sap ,Pam data retrieval and aggregation, while the views provide a structured way to access this data.
 
 ## Directory Structure
 
