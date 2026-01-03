@@ -1,0 +1,11 @@
+-- This file contains SQL commands to grant necessary permissions for the stored procedures and views.
+
+-- Grant permissions for stored procedures
+GRANT EXECUTE ON PROCEDURE CE_NOVA_DEV.DBO.SP_RECON_CLIENT_VIEW TO ROLE your_role;
+GRANT EXECUTE ON PROCEDURE CE_NOVA_DEV.DBO.SP_RECON_ACCOUNT_VIEW TO ROLE your_role;
+GRANT EXECUTE ON PROCEDURE CE_NOVA_DEV.DBO.SP_RECON_PORTFOLIO_SUMMARY TO ROLE your_role;
+
+-- Grant permissions for views
+GRANT SELECT ON VIEW CE_NOVA_DEV.DBO.V_RECON_CLIENT TO ROLE your_role;
+GRANT SELECT ON VIEW CE_NOVA_DEV.DBO.V_RECON_ACCOUNT TO ROLE your_role;
+GRANT SELECT ON VIEW CE_NOVA_DEV.DBO.V_RECON_PORTFOLIO_SUMMARY TO ROLE your_role;
